@@ -1,0 +1,25 @@
+.button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    :hover{
+        transform: scaleX(1.5);
+    }
+}
+.primary{
+    background-color: blue;
+    color: white;
+}
+.secondary{
+    background-color: slategray;
+    color: white;
+}
+.success{
+    background-color: green;
+    color: white;
+}
+.danger{
+    background-color: red;
+    color: white;
+}
